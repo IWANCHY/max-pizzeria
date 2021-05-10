@@ -1,4 +1,4 @@
-﻿/* The Universal Selector has been used here to cancel the browser default margins and */
+/* The Universal Selector has been used here to cancel the browser default margins and */
 /* padding for every page element.  This ensures that only assigned */
 /* margin and padding values are implemented when viewing pages. */
 * {margin:0;padding:0}
@@ -13,45 +13,45 @@ header, footer, section {padding:10px}
 header, nav, main, footer {display:block;clear:both}
 
 /* Background Colours */
-body, div, main {background-color:black}
-nav {background-color:white}
-header {background-color:#339933}
-footer {background-color:#F31924}
-section {background-color:White}
+body, div, main {background-color:#f2f5ea}
+nav {background-color:#f2f5ea}
+header {background-color:#003669}
+footer {background-color:#003669}
+section {background-color:#f2f5ea}
 
 
 
 /* CSS specific to page areas */
 
 /* Body */
-body{margin:auto;width:1000px}
+body{margin:auto;width:600px}
 
 
 
 /* Header */
 header {height:100px}
-h1{font-family:impact;color:White;font-size:55pt;text-align:left;display:block;}
+h1{font-family:impact;color:White;font-size:20pt;text-align:left;display:block;}
 h1{text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
 .bannerimage {width:100px;height:100px;float:left;margin-right: 10px}
 
 /* Footer */
-footer {height:75px}
-p{font-family:arial;color:White;font-size:25pt;text-align:left;display:block}
+footer {height100px; color:white;}
+p{font-family:arial;color:white;font-size:25pt;text-align:left;display:block}
 
 
 
 /* Nav */
-nav  {margin-top:0px}
-nav {height:40px}
+nav  {margin-top:10px}
+nav {height:20px}
 nav {font-family: impact;font-size: 15pt;}
 nav ul {list-style-type:none}
 nav ul li {float:left;width:200px;text-align:center}
-nav ul li a {display:block;padding:8px}
+nav ul li a {display:block;padding:10px}
 nav ul li a:link {background-color:#FFFFFF; color: #F31924; text-decoration: none}
-nav ul li a:visited {background-color:#FFFFFF;color:#F31924;}
-nav ul li a:hover {background-color:#F31924;color:#FFFFFF;}
-nav ul li a:active {background-color:#F31924;color:#FFFFFF;}
-a#highlight {background-color:#F31924;color:#FFFFFF;}
+nav ul li a:visited {background-color:#E75A7C;color:white;}
+nav ul li a:hover {background-color:#E75A7C;color:#FFFFFF;}
+nav ul li a:active {background-color:#E75A7C;color:#003669;}
+a#highlight {background-color:#E75A7C;color:#003669;}
 
 
 
@@ -69,9 +69,14 @@ input, select {margin-left:50px}
 
 
 /*Home Page*/
-.imageLargeLeft {width:300px;height:450px;float:left;margin-right:10px;margin-bottom:10px}
-.appstore {width:250px;height:168px;float:right;margin-left:10px;margin-bottom:10px}
-#hometext{height: 450px}
+/*.imageLargeLeft {width:300px;height:450px;float:left;margin-right:10px;margin-bottom:10px}*/
+
+#hometext{height: 200px; margin-left:150px;}
+.middleimage {margin-left:50px; margin-top:20px;}
+.loginbutton {margin-left:170px; margin-top:15px; background-color:#E75A7C;color:#003669;font-family:impact;padding:15px;}
+.uname {margin-left:70px;}
+.passwordclass {margin-left: 70px; margin-top:10px;}
+
 
 /* Menu Page  */
 .menuSmall {width:120px;height:120px;float:right;margin-left:10px;margin-bottom:10px}
@@ -84,7 +89,7 @@ input, select {margin-left:50px}
 
 
 /*Reviews Page*/
-.imageLargeRight {width:300px;height:225px;float:right;margin-left:10px;margin-bottom:10px}
+.timetable {width:600px;height:250px;float:middle; margin-top:40px;}
 
 
 /*Multi Page*/
@@ -97,8 +102,14 @@ input, select {margin-left:50px}
 
 
 /* Footer */
-footer {height:50px}
-footer p {font-family:Helvetica;text-align:left;color:White;font-size:12pt;margin-top:0px}
+footer {height:50px; margin-top:100px;}
+footer p {font-family:Helvetica;text-align:left;color:White;font-size:12pt;margin-top:0px;}
+
+
+
+
+
+
 
 
 
