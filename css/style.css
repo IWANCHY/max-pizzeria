@@ -77,8 +77,8 @@ p{margin-bottom:10px;font-size:15pt;text-align:left}
 
 #loginform{margin-left:160px;}
 
-#username{height:50px;}
-#password{height:50px;}
+#username{height:70px; width:300px}
+#password{height:70px; width:300px}
 
 
 /*notes page*/
