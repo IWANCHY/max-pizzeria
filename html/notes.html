@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width" "initial-scale=1">
+<html>
+
+<head>
+	<title>Notes</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	
+</head>
+
+<body>
+
+	<!-- Page Header -->
+	<header>
+		<img class="bannerimage" src="../images/studentapplogo.png">
+		<h1>West Lothian College <br> Student App </h1>
+
+	</header>
+
+	<!-- Navigation Bar -->
+	<nav>
+		<ul>
+			<li><a id="logout" href="home.html" onclick="alert ('Succesfully Logged out')">Log out</a></li>
+			<li><a id="highlight" href="notes.html">Notes</a></li>
+			<li><a href="timetable.html">Timetable</a></li>
+			<li><a href="callendar.html">Callendar</a></li>
+		</ul>
+	</nav>
+
+	<!-- The main content of the page -->
+	<main>
+
+		
+    <div class="container">
+			<br>
+            <h2>Create Notes</h2>
+            <form action="">
+			<br>
+                <input type="text" id="note-title" placeholder="Note title">
+				<br>
+			<br>
+                <textarea id="note-text" placeholder="Note Details"></textarea>
+            <br>
+                <button id="add-btn">Add Note</button>
+            </form>
+        </div>
+		
+
+   <section>
+        <div class="container">
+		
+            <h2>Your Notes</h2>
+			<br>
+            <hr>
+            <div id="notes">
+        
+                    <div class="note">
+                        <p class="note-counter">Note {index + 1}</p>
+                        <h3 class="note-title"> element.title </h3>
+                        <p class="note-text"> element.text</p>
+                        <button class="note-btn">Delete Note</button>
+                        <button class="notr-btn edit-btn">Delete Note</button>
+						
+						
+                    </div>
+			
+                
+            </div>
+			<br>
+			<hr>
+        </div>
+    </section>
+	
+	
+    <script src="script.js"></script>
+
+
+
+
+	</main>
+
+	<!-- Page Footer -->
+	<footer>
+		<section id = "footerinfo">
+		<a href="https://www.west-lothian.ac.uk/about-us/">West Lothian College TCS</a> 
+		
+		<h4>Time: <span id="datetime"></span></h4>
+	<script>
+	var dt = new Date();
+	document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+	</script>
+	</section>	
+	</footer>
+
+</body>
+</html>
