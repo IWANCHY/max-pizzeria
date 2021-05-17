@@ -71,14 +71,15 @@ p{margin-bottom:10px;font-size:15pt;text-align:left}
 
 #hometext{height: 200px; margin-left:100px;}
 .middleimage {margin-left:70px; margin-top:20px;}
-.login {margin-left:50px; margin-top:10px;  font-family:impact; font-size:20px;}
+.login {margin-left:100px; margin-top:10px;  font-family:impact; font-size:20px;}
 
 
 
-#loginform{margin-left:160px;}
+#loginform{margin-left:100px;}
 
-#username{height:70px; width:300px}
-#password{height:70px; width:300px}
+#username{height:70px; width:300px; font-size:15pt;}
+#password{height:70px; width:300px; font-size:15pt;}
+
 
 
 /*notes page*/
