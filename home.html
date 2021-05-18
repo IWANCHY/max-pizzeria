@@ -40,8 +40,7 @@
     <input type="password" name="password" id="password" placeholder="Password"/><br>
 </div>
 <div class="login">
-      <input name="loginbutton" id "loginbutton" type="submit"  style="font-size:25pt;height:100px" value="      Login!      " onclick="validateForm(); return false;" >
-
+    <input name="loginbutton" id "loginbutton" type="submit"  style="font-size:25pt;height:100px" value="      Login!      " onclick="validateForm(); return false;" >
 </div>
 </form>
 </section>
@@ -50,16 +49,19 @@
     function validateForm() {
         var un = document.loginForm.username.value;
         var pw = document.loginForm.password.value;
-        var username = "student"; 
-        var password = "123";
+        var username = "student";
+	
+		
+        var password = "123" ;
         if ((un == username) && (pw == password)) {
-			alert ("Succesfully logged in!");
+			window.confirm("Successfuly Logged In!");
             window.location = "notes.html";
             return false;
         }
         else 
 		{
-            alert ("Login was not successfull please check your username and password");
+			window.confirm("Login was not successful please check your username and password");
+           
         }
     }
 </script>	
@@ -69,8 +71,8 @@
 	var dt = new Date();
 	document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
 </script>
-
-
+<br> <br> <br> <br>
+<p> username:student<br>password:123 </p>
 	</main>
 
 	<!-- Page Footer -->
